@@ -2,12 +2,12 @@
 
 Command Line | Utility
 ------------ | -------------
-git add + ìfile nameî | Add to index (need to use this command line to commit)
+git add + ‚Äúfile name‚Äù | Add to index (need to use this command line to commit)
 git add . | Add all the files in the index
-git commit ñm + ìcommit descriptionî | Commit with message
-git commit ñam + ìcommit descriptionî | Commit and add to index (if file has just been modified)
+git commit ‚Äìm + ‚Äúcommit description‚Äù | Commit with message
+git commit ‚Äìam + ‚Äúcommit description‚Äù | Commit and add to index (if file has just been modified)
 git revert + sha code of commit | Create a new commit instead of the previous one
-git commit -- amend ñm ìnew messageî | Change message of last commit (only if commit isnít pushed)
+git commit -- amend ‚Äìm ‚Äúnew message‚Äù | Change message of last commit (only if commit isn‚Äôt pushed)
 git resert --hard | Delete all the non-committed modification
 git clone  + link from github | (SSH or HTTPS link) Copy an already existing repository to your computer
 git push + origin master | Synchronize (send) your local modification with you online master branch
@@ -15,27 +15,27 @@ git pull + origin master | Retrieve locally the latest changes from your online 
 git log | Shows all the commit made on your current located branch
 git branch + branch name | Create a new branch
 git checkout + branch name | Change branch
-git checkout ñb + branch name | Create and change branch at the same time
+git checkout ‚Äìb + branch name | Create and change branch at the same time
 git merge + branch name | Merge a branch to another
 git blame + file name.extension | List all modifications made on a file
 git show + sha code | Show why the modification has been mad
 git stash  | Put aside your current changes
-git stash pop | Recover the changes you had set aside (with ìgit stashî)
+git stash pop | Recover the changes you had set aside (with ‚Äúgit stash‚Äù)
 git init | Create an empty Git repository or reinitialize an existing one
-git status | Get the status of you current branch (committed or not Ö)
+git status | Get the status of you current branch (committed or not ‚Ä¶)
 git config --global user.name "Sam Smith" | Configure the author name be used with your commits
 git config --global user.email sam@example.com | Configure the author email address to be used with your commits.
 
 *Sha code*: ID of every commit.
 
-*Example of git clone*: ì git clone https://github.com/facebook/react.git ì (you can try this command line, you will get a JavaScript library created by Facebook).
+*Example of git clone*: ‚Äú git clone https://github.com/facebook/react.git ‚Äú (you can try this command line, you will get a JavaScript library created by Facebook).
 
 ----
 ## Order to push a file to an online github
 Once you have created an online Git repository if you have created or modified a file you have to follow the following order to be able to send you modification to your online repository: 
-1. Add file to index with git add
-2. Commit your file with git commit ñam (ì-aî only if you have done some modification in the file and you add it to the index once with ìgit addî)
-3. Send the modification to you git repository with git push origin master (if you use HTTPS you will have to enter your git login and password)
+* 1: Add file to index with git add
+* 2: Commit your file with git commit ‚Äìam (‚Äú-a‚Äù only if you have done some modification in the file and you add it to the index once with ‚Äúgit add‚Äù)
+* 3: Send the modification to you git repository with git push origin master (if you use HTTPS you will have to enter your git login and password)
 
 ----
 ## HTTPS or SSH ?
@@ -51,7 +51,7 @@ It can happen that during a merge you face a conflict:
 
 ![alt text](https://raw.githubusercontent.com/jeanjeanjeana/EclipseJavaProject/master/imagescreen.png "console screen for conflict")
 
-To resolve this conflict, you have to open the concerned file (with vim or your favorite text editor) select the lines you want and delete the lines you donít want, add the file to the index and commit it with only ìgit commit ì. Then you can modifie the commit message and if you donít want, just tape ì:x ì.
+To resolve this conflict, you have to open the concerned file (with vim or your favorite text editor) select the lines you want and delete the lines you don‚Äôt want, add the file to the index and commit it with only ‚Äúgit commit ‚Äú. Then you can modifie the commit message and if you don‚Äôt want, just tape ‚Äú:x ‚Äú.
 
 ----
 ## Some useful links
