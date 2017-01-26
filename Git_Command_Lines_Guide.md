@@ -63,6 +63,7 @@ To resolve this conflict, you have to open the concerned file (with vim or your 
 * [Online github Website](https://github.com/)
 * [Some command lines in French](https://gist.github.com/aquelito/8596717)
 * [Some other command lines in English](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+* [Command lines in French](http://rogerdudler.github.io/git-guide/index.fr.html)
 
 ----
 ## Other
