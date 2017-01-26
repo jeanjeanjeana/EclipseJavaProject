@@ -28,7 +28,10 @@ git config --global user.email sam@example.com | Configure the author email addr
 
 *Sha code*: ID of every commit.
 
-*Example of git clone*: “ git clone https://github.com/facebook/react.git “ (you can try this command line, you will get a JavaScript library created by Facebook).
+*Example of git clone*: 
+>  git clone https://github.com/facebook/react.git  
+
+(you can try this command line, you will get a JavaScript library created by Facebook).
 
 ----
 ## Order to push a file to an online github
