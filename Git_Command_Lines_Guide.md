@@ -45,6 +45,7 @@ Once you have created an online Git repository if you have created or modified a
 Concerning the 2 ways (SSH or HHTPS) to retrieve your online repository to your local computer :
 * SHH is more safe but more complicated to implement
 * HTTPS is very easy to implement, just get the link from github
+
 If you want to use SSH follow this [link](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 ----
